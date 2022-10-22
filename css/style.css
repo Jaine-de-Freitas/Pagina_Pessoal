@@ -1,0 +1,220 @@
+body{
+    background-color: rgb(213, 249, 255);
+    background-image: url(https://i.gifer.com/5GpD.gif);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vh;
+    margin: 4px;
+}
+#cabecalho{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient( rgb(0, 153, 255),rgb(204, 235, 255));
+}
+.img-menu{
+    width: 80px;
+    height: 80px;
+}
+#titulo{
+    text-align: center;
+    font-family: 'Showcard Gothic';
+    font-size:28px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 30px;
+    width: 400px;
+    padding:10px;
+    margin: auto;
+    margin-top: 6px;
+}
+#perfil{
+    width:340px;
+    height: 340px;
+}
+#estilo-player{
+    background: linear-gradient( rgb(0, 153, 255),rgb(204, 235, 255),white);
+    border: 2px solid rgb(0, 67, 112);
+    border-radius: 10px;
+    margin: auto;
+}
+#estilo-hab{
+    align-items: center;
+}
+#habs{
+    display:flex;
+}
+#player{
+    text-align: center;
+    font-family: 'Stencil';
+    font-size:22px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 30px;
+    padding:6px;
+}
+.estilo{
+    margin:auto;
+    border: 2px solid rgb(0, 67, 112);
+    border-radius: 10px;
+    background-color: white;
+}
+.agrup-cards{
+    margin:auto;
+    background-color: rgb(0, 153, 255);
+    border: 2px solid rgb(0, 67, 112);
+    border-radius: 10px;
+}
+.agrup-cards:hover{
+    cursor: pointer;
+}
+.fig-cards{
+    text-align: center;
+    font-family: 'Stencil';
+    font-size:20px;
+    background-color: rgb(255, 196, 0);
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 10px;
+    padding: 5px;
+}
+#sobre{
+    display:none;
+    font-family: 'Arial';
+    padding:8px;
+    align-items: center;
+    text-align: center;
+}
+#hab1{
+    display: none;
+    width: 200px;
+    height: 210px;
+}
+#hab2{
+    display: none;
+    width: 200px;
+    height: 210px;
+}
+#hab3{
+    display: none;
+    width: 200px;
+    height: 210px;
+    margin-right: 15px;
+}
+#port1{
+    display: none;
+}
+#port2{
+    display: none;
+}
+.agrupar{
+    display:flex;
+    margin-top:30px;
+}
+.cards{
+    width:250px;
+}
+.imagensp{
+    width:300px;
+    margin:8px;
+}
+.imagensp:hover{
+    cursor: pointer;
+}
+#radios{
+    display:none;
+    width: 120px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+#card1{
+    border:0;
+    width:100%;
+    height: 30px;
+}
+#card1:hover{
+    cursor: pointer;
+}
+#card2{
+    border:0;
+    width:100%;
+    height: 30px;
+}
+#card2:hover{
+    cursor: pointer;
+}
+#card3{
+    border:0;
+    width:100%;
+    height: 30px;
+}
+#card3:hover{
+    cursor: pointer;
+}
+#voltar{
+    display:none;
+    justify-content: space-around;
+    background-color: rgb(255, 196, 0);
+    width: 180px;
+    padding: 8px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'Arial';
+    text-decoration: none;
+}
+#gif{
+    width: 100%;
+}
+#rodape{
+    margin-top:auto;
+}
+@media (max-width:1300px){
+    #estilo-player{
+        display:none;
+    }
+}
+@media (max-width:900px){
+    .agrupar{
+        display:block;
+    }
+    .agrup-cards{
+        width: 250px;
+        background-color: rgb(242, 247, 255);
+        border:none;
+    }
+    .estilo{
+        background-color: rgb(242, 247, 255);
+    }
+    #habs{
+        display: block;
+        margin: auto;
+    }
+    #hab1{
+        width:100px;
+        height: 110px; 
+    }
+    #hab2{
+        width:100px;
+        height: 110px;
+    }
+    #hab3{
+        width:100px;
+        height: 100px; 
+    }
+}
+@media (max-width:600px){
+    .imagensp{
+        width: 190px;
+    }
+    #img-portfolio{
+        margin: auto;
+    }
+    body{
+        margin:auto;
+    }
+}
+@media (max-width:452px){
+    #titulo{
+        font-size: auto;
+        width:auto ;
+        padding: auto;
+    }
+}

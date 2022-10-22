@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="javascript/script.js"></script>
+</head>
+<body>
+    <header id="cabecalho">
+            <a class="link" href="mailto:jainedefreitas19@gmail.com?subject=Contato&body=Olá,%20gostaria%20de%20me%20comunicar%20com%20você!"><img class="img-menu" src="imagens/email.png"></a>
+            <a class="link" href="https://github.com/Jaine-de-Freitas" target="_blank"><img class="img-menu" src="imagens/github.png"></a>
+            <a class="link" href="https://www.linkedin.com/in/jaine-de-freitas-96224b223/" target="_blank"><img class="img-menu" src="imagens/linkedin.png"></a>
+    </header>
+    <section id="todo">
+        <h1 id="titulo">Escolha uma trilha!</h1>
+        <div class="agrupar">
+            <figure id="estilo-player">
+                <img id="perfil" src="imagens/fotoperfil.png">
+                <figcaption id="player">Player 1 selecionado!</figcaption>
+            </figure>
+            <div class="estilo" id="estilo-sobre" onclick="sobreMim()">
+                <figure class="agrup-cards">
+                    <img class="cards" src="imagens/astronautapng.png" alt="astronauta">
+                    <figcaption class="fig-cards">Sobre Mim</figcaption>
+                </figure>
+                <p id="sobre">
+                    Meu nome é Jaine! Sou estudante de programação e amante da tecnologia,<br>
+                     atualmente estou cursando o segundo ano de um curso técnico em informática.<br>
+                      Tenho mais interesse na área de front-end, mas também estudo a área de back-end.
+                </p>
+            </div>
+            <div class="estilo" id="estilo-hab" onclick="habilidades()">
+                <figure class="agrup-cards">
+                    <img class="cards" src="imagens/foguetepng.png" alt="foguete">
+                    <figcaption class="fig-cards">Habilidades</figcaption>
+                </figure>
+                <div id="habs">
+                <img id="hab1" src="imagens/html.png" alt="html">
+                <img id="hab2" src="imagens/css.png" alt="css">
+                <img id="hab3" src="imagens/js.png" alt="javascript">
+                </div>
+            </div>
+            <div class="estilo" id="estilo-port" onclick="portfolio()">
+                <figure class="agrup-cards">
+                    <img class="cards" src="imagens/telespng.png" alt="telescopio">
+                    <figcaption class="fig-cards">Portfólio</figcaption>
+                </figure>
+                <div id="img-portfolio">
+                    <a href="https://github.com/Jaine-de-Freitas/Jornal" target="_blank"><img class="imagensp" id="port1" src="imagens/portfolio1.png" alt="imagem 1 de portfólio"></a>
+                    <a href="https://github.com/Jaine-de-Freitas/Clone-Interface-Disneyplus" target="_blank"><img class="imagensp" id="port2" src="imagens/portfolio2.png" alt="imagem 2 de portfólio"></a>
+                </div>
+            </div>
+        </div>
+        <div id="radios">
+            <input type="radio" name="card1" id="card1" onclick="sobreMim()">
+            <input type="radio" name="card2" id="card2" onclick="habilidades()">
+            <input type="radio" name="card3" id="card3" onclick="portfolio()">
+        </div>
+        <a id="voltar" href="index.html">Voltar a página inicial.</a>
+    </section>
+    <footer id="rodape">
+        <img id="gif" src="imagens/mariorun.gif" alt="rodape">
+    </footer>
+</body>
+</html>
